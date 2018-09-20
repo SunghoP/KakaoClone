@@ -37,20 +37,43 @@
             </div>
         </div>
     </header>
-        <nav class="tab-bar">
-        <a href="index.html" class="tab-bar__tab">
-            <i class="fas fa-users"></i><span class="tab-bar__title">Friends</span>
-        </a>
-        <a href="chats.html" class="tab-bar__tab">
-            <i class="fas fa-comment"></i><span class="tab-bar__title">Chats</span>
-        </a>
-        <a href="find.html" class="tab-bar__tab">
-            <i class="fas fa-search"></i><span class="tab-bar__title">Find</span>
-        </a>
-        <a href="more.html" class="tab-bar__tab">
-            <i class="fas fa-ellipsis-h"></i><span class="tab-bar__title">More</span>
-        </a>
-    </nav>
 
+    <main class="chat">
+        <div class="date-divider">
+            <span class="date-divider__text">Wednesday, August 2, 2017</span>
+        </div>
+        <!-- 내가 보낸 메세지 -->
+        <div class="chat__message-from-me">
+            <span class="chat__message-time">17:55</span>
+            <span class="chat__message-body">
+                Hello! This is a test message.
+            </span>
+        </div>
+        
+        <!-- 내가 받은 메세지 -->
+        <div class="chat__message chat__message-to-me">
+            <img src="images/avatar.jpg" class="chat_message-avatar">
+            <div class="chat__message-center">
+                <h3 class="chat__message-username">Lei</h3>
+                <span class="chat__message-body">
+                        And this is an answer.
+                </span>
+            </div>
+            <span class="chat__message-time">19:35</span>
+        </div>
+
+        <!-- 하단 input text -->
+        <div class="type-messa">
+            <i class="fas fa-plus fa-lg"></i>
+            <div class="type-message__input">
+                <input type="text">
+                <i class="class fa fa-smile"></i>
+                <span class="record-message">
+                    <i class="fa fa-microphone"></i>
+                </span>
+            </div>
+        </div>
+
+    </main>
 </body>
 </html> 
