@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <title>Find</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!-- Status bar -->
@@ -22,8 +22,7 @@
             <div class="header__column">
                 <i class="far fa-moon"></i>
                 <i class="fab fa-bluetooth-b"></i>
-                <span class="header__battery">66%</span>
-                <i class="fas fa-battery-three-quarters"></i>
+                <span class="header__battery">66% <i class="fas fa-battery-three-quarters"></i></span>
             </div>
         </div>
 
@@ -35,7 +34,9 @@
             <div class="header__column">
                 <span class="header__text">Find</span>
             </div>
-            <div class="header__column"></div>
+            <div class="header__column">
+			
+			</div>
         </div>
     </header>
 
@@ -63,7 +64,7 @@
             <header>
                 <h6 class="recommended__title">Recommended Friends</h6>
             </header>
-            <div class="recommended_none">
+            <div class="recommended__none">
                 <span class="recommended__text">You have no recommended friends.</span>
             </div>
         </section>
@@ -72,16 +73,20 @@
     <!-- Bottom Tab bar -->
     <nav class="tab-bar">
             <a href="index.html" class="tab-bar__tab">
-                <i class="fas fa-users"></i><span class="tab-bar__title">Friends</span>
+                <i class="fas fa-users"></i>
+				<span class="tab-bar__title">Friends</span>
             </a>
             <a href="chats.html" class="tab-bar__tab">
-                <i class="fas fa-comment"></i><span class="tab-bar__title">Chats</span>
+                <i class="fas fa-comment"></i>
+				<span class="tab-bar__title">Chats</span>
             </a>
             <a href="find.html" class="tab-bar__tab">
-                <i class="fas fa-search"></i><span class="tab-bar__title tab-bar__tab--selected">Find</span>
+                <i class="fas fa-search"></i>
+				<span class="tab-bar__title tab-bar__tab--selected">Find</span>
             </a>
             <a href="more.html" class="tab-bar__tab">
-                <i class="fas fa-ellipsis-h"></i><span class="tab-bar__title">More</span>
+                <i class="fas fa-ellipsis-h">
+				</i><span class="tab-bar__title">More</span>
             </a>
     </nav>
     
